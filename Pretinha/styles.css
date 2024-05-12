@@ -1,11 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0; /* Removendo margem padrão do body */
+    padding: 0; /* Removendo padding padrão do body */
 }
 
 header {
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+main {
+    width: 20%;
+    margin: 0 auto; /* Centralizar o main */
+    background-image: url('image/casal.png'); /* Adicionando imagem de fundo ao main */
+    background-size: cover;
+    background-position: center;
+    padding: 40px; /* Adicionando espaçamento interno ao main */
 }
 
 h1 {
@@ -35,13 +46,6 @@ button:hover {
 #nao {
     position: relative;
 }
-
-body {
-    background-image: url('image/casal.png');
-    background-size: cover;
-    background-position: center;
-}
-
 
 @media only screen and (max-width: 600px) {
     h1 {
